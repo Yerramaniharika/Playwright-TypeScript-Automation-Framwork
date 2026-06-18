@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "QA automation tests using Playwright",
   "scripts": {
+    "start": "npx http-server ./ -p 3000",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
