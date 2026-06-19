@@ -5,6 +5,8 @@
   "scripts": {
     "start": "npx http-server ./ -p 3000",
     "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:ui-only": "playwright test tests/ui",
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug"
